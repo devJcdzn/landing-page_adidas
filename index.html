@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles/index.css">
+  <title>Nike | Popular Shoes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Outfit:wght@100;300;400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="./src/public/Adidas New 2022.svg" alt="">
+    </div>
+  </header>
+
+  <main>
+    <div class="shoe-img">
+      <img src="./src/public/forum-bonega.png" alt="" class="shoe">
+    </div>
+    <div class="shoe-description">
+      <h1 class="shoe-title">Adidas Forum Bonega</h1>
+      <span class="shoe-color">Wonder Bege</span>
+    </div>
+    <div class="select-shoes">
+      <h2 class="section-title">Other Models</h2>
+      <div class="select-btns">
+        <button id="busenitzPro" onclick="renderPage('busenitz')">Busenitz Pro</button>
+        <button id="courtFunk" onclick="renderPage('court')">Court Funk</button>
+        <button id="forumBonega" onclick="renderPage('bonega')">Forum Bonega</button>
+      </div>
+    </div>
+    <footer>
+      <p>Maked By <a target="_blank" href="https://github.com/devJcdzn">Jean Carlos</a></p>
+    </footer>
+  </main>
+  <script src="./src/scripts/index.js"></script>
+</body>
+
+</html>
